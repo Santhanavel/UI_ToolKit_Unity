@@ -1,0 +1,32 @@
+.Button-GameMenu {
+    width: 90%;
+    height: 100px;
+    border-left-color: rgba(149, 149, 149, 0);
+    border-right-color: rgba(149, 149, 149, 0);
+    border-top-color: rgba(149, 149, 149, 0);
+    border-bottom-color: rgba(149, 149, 149, 0);
+    -unity-font-definition: initial;
+    -unity-font: url('project://database/Assets/Font/4.%20Super%20Comic.ttf?fileID=12800000&guid=4dd7d2a90de5a8a4ebb3abd00b6628c5&type=3#4. Super Comic');
+    background-color: rgba(188, 188, 188, 0);
+    font-size: 72px;
+    -unity-text-outline-color: rgb(232, 207, 144);
+    color: rgba(132, 195, 236, 0.39);
+    -unity-text-outline-width: 4.5px;
+    letter-spacing: 2.5px;
+}
+
+.Button-GameMenu:active {
+    translate: 0 2px;
+}
+
+.Button-GameMenu:hover {
+    border-left-color: rgba(255, 222, 140, 0.78);
+    border-right-color: rgba(255, 222, 140, 0.78);
+    border-top-color: rgba(255, 222, 140, 0.78);
+    border-bottom-color: rgba(255, 222, 140, 0.78);
+    border-top-width: 2.5px;
+    border-right-width: 2.5px;
+    border-bottom-width: 2.5px;
+    border-left-width: 2.5px;
+    scale: 1.1 1.1;
+}
