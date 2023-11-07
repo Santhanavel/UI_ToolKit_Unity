@@ -15,10 +15,6 @@
     letter-spacing: 2.5px;
 }
 
-.Button-GameMenu:active {
-    translate: 0 2px;
-}
-
 .Button-GameMenu:hover {
     border-left-color: rgba(255, 222, 140, 0.78);
     border-right-color: rgba(255, 222, 140, 0.78);
@@ -29,4 +25,28 @@
     border-bottom-width: 2.5px;
     border-left-width: 2.5px;
     scale: 1.1 1.1;
+}
+
+.Button-GameMenu:active {
+    translate: 0 2px;
+}
+
+.conformation-Button {
+    width: 35%;
+    align-items: center;
+    align-self: center;
+    height: 40%;
+    -unity-font-definition: initial;
+    -unity-font: url('project://database/Assets/Font/2.%20BADABB__.TTF?fileID=12800000&guid=9bb2d7cf98c0a1d4ba014e7eea814e20&type=3#2. BADABB__');
+    font-size: 35px;
+    color: rgb(255, 181, 95);
+    -unity-text-outline-width: 2.5px;
+    -unity-text-outline-color: rgba(255, 255, 255, 0.61);
+    background-color: rgba(188, 188, 188, 0);
+    -unity-background-scale-mode: scale-to-fit;
+    border-left-color: rgba(149, 149, 149, 0);
+    border-right-color: rgba(149, 149, 149, 0);
+    border-top-color: rgba(149, 149, 149, 0);
+    border-bottom-color: rgba(149, 149, 149, 0);
+    letter-spacing: 5px;
 }
