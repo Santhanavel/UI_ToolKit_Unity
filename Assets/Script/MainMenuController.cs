@@ -12,6 +12,7 @@ public class MainMenuController : MonoBehaviour
 
 
     // exit menu elements
+    private VisualElement _Quitpanel;
     private Button _Yes;
     private Button _No;
     // Start is called before the first frame update
@@ -27,6 +28,9 @@ public class MainMenuController : MonoBehaviour
         _Play = root.Q<Button>("PLAY");
         _Option = root.Q<Button>("OPTION");
         _Quit = root.Q<Button>("QUIT");
+        _Yes = root.Q<Button>("yes");
+        _No = root.Q<Button>("no");
+        _Quitpanel = root.Q<VisualElement>("QuitPanel");
     }
 
     void AddFunction()
@@ -46,7 +50,7 @@ public class MainMenuController : MonoBehaviour
 
     void SelectQuit(ClickEvent evet)
     {
-
+        
     }
 
 }
